@@ -421,11 +421,11 @@ for i in range(2, 10, 3):
 
 # white to sum   up 1 to 100
 a = 0
-sumup = O
+sumup = 0
 while  a < 100 :
-    a + 1
+    a = a + 1
     sumup += a
-    print ( sumup)
+print (sumup)
 ```
 ```python
 ```
@@ -438,11 +438,11 @@ while  a < 100 :
 # search the first
 # be divided by 17
 for i in range(300, 351):
-    if i % 17 == O:
+    if i % 17 == 0:
         print (i)
         break
     else :
-        cantinue
+        continue
 ```
 ```python
 ```
@@ -490,7 +490,7 @@ def  MaxOfTwo (x1, x2):
      else:
           return x2
 
-a = l
+a = 1
 b = 2
 c = MaxOfTwo(a, b)
 print(c)
