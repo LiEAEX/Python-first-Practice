@@ -210,10 +210,10 @@
 - c = 3    #int 
 - d = a ** 2 # square of a 
 - print (type (d))    # return the type of d  
-- print (type (d/l0)) # return the type of d/l0 
+- print (type (d/10)) # return the type of d/10 
 - print (type (a/b))  # return the type of a/b 
 - print (type (a/c))  # return the type of a/c 
-- print (type (b*d))  # return the type of b*d
+- print (type (b * d))  # return the type of b*d
 
 ```python
 ```
@@ -326,7 +326,7 @@ print(l)l.remove ('data')   #delete an elementprint(l)
 * 在Python中，如果要将值从一个对象传递给另一个对象，则=(等号)将按地址传递值。
 * 例如，
 ```python
-x = [1, 2. 3, 4]
+x = [1, 2, 3, 4]
 y = x
 y[0] = 5
 print(x)
